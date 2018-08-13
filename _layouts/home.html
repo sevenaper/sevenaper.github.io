@@ -25,7 +25,7 @@ show_title: false
           {%- if _excerpt_type == 'html' -%}
             {{ post.excerpt }}
           {%- else -%}
-            {{ post.excerpt | strip_html | truncate: 250 }}
+            {{ post.excerpt | strip_html | truncate: 350 }}
           {%- endif -%}
         </div>
 
