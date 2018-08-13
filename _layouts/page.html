@@ -21,10 +21,7 @@ layout: base
   source0=layout.show_title source1=page.show_title -%}
 {%- assign _show_title = __return -%}
 
-{%- include snippets/assign.html
-  target=site.data.variables.default.page.show_edit_on_github
-  source0=layout.show_edit_on_github source1=page.show_edit_on_github -%}
-{%- assign _show_edit_on_github = __return -%}
+
 
 {%- if page.sidebar -%}
 <div class="layout--page layout--page--sidebar clearfix js-page-root">
